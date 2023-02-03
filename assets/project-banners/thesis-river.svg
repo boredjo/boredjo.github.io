@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="1000px" height="100px"  fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        .text{
+            color: #ff8c00;
+            font-size: 45px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            border: 2px solid black;
+        }
+    </style>
+
+    <rect x="0" y="0" width="1000" height="100" fill="#def8ef"></rect>
+    <path d="M0 93L10.5 91C21 89 42 85 62.8 81.7C83.7 78.3 104.3 75.7 125.2 76.7C146 77.7 167 82.3 187.8 83.5C208.7 84.7 229.3 82.3 250.2 79.2C271 76 292 72 312.8 70.7C333.7 69.3 354.3 70.7 375.2 74.3C396 78 417 84 437.8 86.3C458.7 88.7 479.3 87.3 500.2 84.2C521 81 542 76 562.8 76.3C583.7 76.7 604.3 82.3 625.2 85.2C646 88 667 88 687.8 86.3C708.7 84.7 729.3 81.3 750.2 81.2C771 81 792 84 812.8 84.8C833.7 85.7 854.3 84.3 875.2 81.8C896 79.3 917 75.7 937.8 75.5C958.7 75.3 979.3 78.7 989.7 80.3L1000 82L1000 101L989.7 101C979.3 101 958.7 101 937.8 101C917 101 896 101 875.2 101C854.3 101 833.7 101 812.8 101C792 101 771 101 750.2 101C729.3 101 708.7 101 687.8 101C667 101 646 101 625.2 101C604.3 101 583.7 101 562.8 101C542 101 521 101 500.2 101C479.3 101 458.7 101 437.8 101C417 101 396 101 375.2 101C354.3 101 333.7 101 312.8 101C292 101 271 101 250.2 101C229.3 101 208.7 101 187.8 101C167 101 146 101 125.2 101C104.3 101 83.7 101 62.8 101C42 101 21 101 10.5 101L0 101Z"
+        fill="#0073e6" stroke-linecap="round" stroke-linejoin="miter"></path>
+    <text class="text" x="50%" y="60%" fill="#ff8c00" text-anchor="middle">thesis-river.science</text>
+    <rect x="30%" y="20%" width="40%" height="50%" fill="none" style="stroke-width:4;stroke:rgb(0,0,0)" ></rect>
+    <path d="M310 70 L310 80 M310 80 L710 80 M710 80 L710 30 M710 30 L700 30" style="stroke-width:4;stroke:rgb(0,0,0)"/>
+    <!-- <path d="M305 70 L 305 75 M304 75 L705 75 M705 76 L 705 24 M 705 25 L700 25" style="stroke-width:2;stroke:rgb(0,0,0)"/> -->
+</svg>

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
     <title>boredJo</title>
 </head>
 <body>
@@ -16,32 +20,26 @@
                     <img src="./assets/icons/github-mark.svg">
                 </a >
                 <a class="social">
-                    <img src="./assets/icons/email.png">
+                    <img src="./assets/icons/email.svg">
                 </a>
+                <!-- <a class="social" href="mailto:test@example.com">
+                    <img src="./assets/icons/message.svg">
+                </a> -->
             </div>
         </div>
         <div class="left-side" >
             <h1>boredJo</h1>
             <h2>About Me:</h2>
-            <p>Hi, my name is Jo. I'm a junior in computer science. I like working with HTML, Typescript and various different Frameworks. I have the most experience in React.I also like to work with micro processers and do some engineering. Feel free to contact me if you have any questions or ideas.</p>
+            <p>Hi, my name is Jo. I'm a junior in computer science. I like working with HTML, Typescript, and various different Frameworks, but am most experienced in React. I also like to work with microprocessors and do some engineering. soon Feel free to contact me if you have any questions or ideas.</p>
             <h2>Projects:</h2>
             <div class="project-list">
-                <div class="project offline">
-                    <p>randomquestion.wtf</p>
-                </div>
-                <div class="project comming-soon">
-                    scienceexchange
-                </div>
-                <div class="project comming-soon">
-                    blog
-                </div>
+                <a class="project offline" style="background-image: url('./assets/project-banners/randomquestion.svg')" href="https://github.com/boredjo/randomquestion.wtf"></a>
+                <a class="project coming-soon" style="background-image: url('./assets/project-banners/thesis-river.svg')"></a>
+                <a class="project coming-soon" style="background-image: url('./assets/project-banners/blog.svg')"></a>
             </div>
     </div>
 </body>
-<script>
-    console.log("Test");
-</script>
-<svg>
+<svg style="position: absolute;">
     <filter id='noiseFilter'>
       <feTurbulence 
         type='fractalNoise' 

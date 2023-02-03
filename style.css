@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra Petch');
+@import url('https://fonts.googleapis.com/css?family=Bungee Shade');
+
 :root {
     --blue: #30b3a9;
     --red: #9c1c17;
@@ -6,7 +9,7 @@
   }
 
 html {
-    font-family: Monaco;
+    font-family:'Chakra Petch';
     color: var(--white);
 }
 
@@ -26,21 +29,25 @@ body::after {
 	content: '';
 	width: 100%;
 	height: 100%;
-	z-index: -1;
+	z-index: -10;
 	mix-blend-mode:color-burn;
 }
 
 body::before {
-    background:var(--background) url("./assets/layered-peaks-haikei.svg") no-repeat;
+    background:var(--background) url("./assets/layered-peaks-haikei.svg") center no-repeat;
     background-size: cover;
 	filter: url("#noiseFilter");
 }
 
 body::after {
-	background: url("./assets/layered-peaks-haikei.svg") no-repeat;
+	background: url("./assets/layered-peaks-haikei.svg") center no-repeat;
 	background-size: cover;
     filter: lighten;
 
+}
+
+a, a:visited {
+    text-decoration: none;
 }
 
 .main-grid {
@@ -56,6 +63,7 @@ body::after {
     display: flex;
     flex-direction: column;
     margin: auto;
+    padding: 0% 5% 0% 10%;
     /* border-right: 1px solid black; */
 }
 
@@ -78,6 +86,13 @@ body::after {
     border: 2px solid var(--white);
     box-shadow: 3px 3px 3px var(--red);
     border-radius: 50%;
+    height: 48px;
+    width: 48px; 
+}
+
+.social:hover {
+    transform: translate(2px, 2px);
+    box-shadow: none;
 }
 
 .social > img {
@@ -93,47 +108,77 @@ body::after {
     padding: 0% 10% 0% 5%;
 }
 
+h1 {
+    margin: auto auto 0 0%;
+    font-size: 4em;
+    text-shadow: 3px 3px 3px var(--red);
+}
+
+h2 {
+    margin: auto 0 0 0;
+    text-shadow: 3px 3px 3px var(--red);
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 .project-list {
-    border: 1px black solid;
     margin: 5px 0 auto 5px;
     height: 50%;
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
     border-radius: 10px;
-    border: 2px solid var(--white);
-    box-shadow: 3px 3px 4px var(--red);
+    box-shadow: 7px 3px 7px var(--red);
 }
+
 
 .project {
     display: flex;
+    height: 100%;
     width: calc(100% - 40px);
     margin: 0px auto;
-    height: 100%;
-    line-height: 100%;
     padding: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-.project > p {
-
+    font-size: 24px;
+    background-position: center center;
+    background-size: cover;
+    border: 2px solid var(--white);
+    border-radius: 10px;
 }
 
 .project:not(:first-child) {
-    border-top: 2px solid var(--white);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 1px solid var(--white);;
+}
+.project:not(:last-child) {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 1px solid var(--white);;
 }
 
-h1 {
-    margin: auto auto auto 0%;
-    font-size: 4em;
+.online:hover {
+    box-shadow: 5px 5px 7px var(--blue);
 }
 
-h2 {
-    margin: auto 0 0 0;
+.offline:hover, .coming-soon:hover {
+    background-image: url('./assets/project-banners/offline.svg') !important;
+    color: var(--background);
+}
+.offline:hover:before {
+    content: "currently offline"
 }
 
-p {
-    margin-top: 5px;
-    margin-left: 5px;
+.coming-soon:hover:before {
+    content: "coming soon"
+}
+
+
+
+.offline {
+
 }

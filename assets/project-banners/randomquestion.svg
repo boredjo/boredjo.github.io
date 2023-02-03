@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="1000px" height="100px"  fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        .random{
+            color: white;
+            text-shadow: 3px 3px 7px #9360FA;
+            font-size: 45px;
+            margin: auto;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        .wtf{
+            color: white;
+            text-shadow: 3px 3px 7px #9360FA;
+            font-size: 45px;
+            margin: auto;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+
+    <rect width="1000" height="100" fill="#080115"/>
+    <text class="random" x="63%" y="60%" fill="white" text-anchor="end">randomquestion.</text>
+    <text class="wtf" x="63%" y="60%" fill="#9360FA" text-anchor="start">wtf</text>
+</svg>

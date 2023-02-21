@@ -14,7 +14,7 @@
 <body>
     <div class="main-grid" >
         <div class="right-side">
-            <img src="./assets/boredjo.png" id="profile-picture">
+            <img src="./assets/boredfo.png" id="profile-picture">
             <div class="socials-list" >
                 <a class="social" href="https://github.com/boredjo">
                     <img src="./assets/icons/github-mark.svg">
@@ -22,15 +22,21 @@
                 <a class="social" href="mailto:j_kaendl@uncg.edu">
                     <img src="./assets/icons/email.svg">
                 </a>
-                <a class="social" onclick="sendMessage('test')">
+                <a class="social" onclick="toggleMessageBox()">
                     <img src="./assets/icons/message.svg">
                 </a>
+                <div class="message-box" style="display:none">
+                    <img class="close-button" src="./assets/icons/close.svg" onclick="toggleMessageBox()">
+                    <p class="message-header">send me a message:</p>
+                    <textarea name="Message" id="textarea" cols="30" rows="10" placeholder="Hey Jo, ..."></textarea>
+                    <button class="message-button" onclick="sendMessage()">Send Message</button>
+                </div>
             </div>
         </div>
         <div class="left-side" >
             <h1>boredJo</h1>
             <h2>About Me:</h2>
-            <p>Hi, my name is Jo. I'm a junior in computer science. I like working with HTML, TypeScript, and various different frameworks, but am most experienced in React. I also like to work with microprocessors and do some engineering. so feel free to contact me if you have any questions or ideas.</p>
+            <p>Hi, my name is Jo. I'm a junior in computer science. I like working with HTML, TypeScript, and various different frameworks, but am most experienced in React. I also like to work with microprocessors and do some engineering. Feel free to contact me if you have any questions or ideas.</p>
             <h2>Projects:</h2>
             <div class="project-list">
                 <a class="project" style="background-image: url('./assets/project-banners/randomquestion.svg')" href="http://randomquestion.wtf"></a>
@@ -41,7 +47,7 @@
     </div>
 </body>
 <script src="main.js"></script>
-<svg style="position: absolute;">
+<svg style="position: absolute;height: 0px;">
     <filter id='noiseFilter'>
       <feTurbulence 
         type='fractalNoise' 

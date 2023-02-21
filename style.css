@@ -177,8 +177,53 @@ p {
     content: "coming soon"
 }
 
+.message-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-149px, -175px);
+    border: 2px var(--white) solid;
+    box-shadow: 5px 5px 7px var(--red);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    width: 274px;
+}
 
+#textarea {
+    height: 200px;
+    width: 250px;
+    background-color: var(--background);
+    border: 2px var(--white) solid;
+    box-shadow: 3px 3px 5px var(--red);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--white);
+    margin: 5px
+}
 
-.offline {
+.message-button {
+    background-color: var(--white);
+    color: var(--background);
+    box-shadow: 3px 3px 5px var(--red);
+    border-radius: 5px;
+    font-size: x-large;
+    margin: auto;
+    height: 48px;
+    width: 264px;
+    text-align: center;
+    margin: 5px;
+}
 
+.message-header {
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    height: 12px;
+    weight: 12px;
 }
